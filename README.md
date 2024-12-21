@@ -15,8 +15,8 @@ git clone https://github.com/Alina-Aziz/Credit-Card-UI-Design-P8.git
 Open the index.html file in any browser to see the design in action.
 
 #### Technologies:
-HTML
-CSS
+-HTML
+-CSS
 
 This repository contains the code for a simple, visually appealing credit card UI design created with HTML and CSS. The design includes both the front and back sides of a credit card, complete with modern effects, a logo, a chip, and customer service details.
 
