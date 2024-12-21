@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#card {
+    width: 1280px;
+    height: 1000px;
+    background-color: rgb(20, 3, 26);
+    position: relative;
+}
+
+#circle1 {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to left, rgba(247, 240, 240, 0.6), rgba(107, 14, 84, 0.52));
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+#circle2 {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to left, rgba(247, 240, 240, 0.6), rgba(107, 14, 84, 0.52));
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 500px
+}
+
+#circle3 {
+    width: 450px;
+    height: 250px;
+    background-color: #ffffff24;
+    /* opacity: 50%; */
+    border-radius: 50px;
+    position: relative;
+    top: -230px;
+    left: 227px;
+}
+
+#content-data {
+    width: 350px;
+    height: 5px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    /* margin-right: 10px; */
+    padding: 25px 0px 25px 25px;
+
+}
+
+#heading {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 42px;
+}
+
+.chip {
+    display: flex;
+    margin-left: 168px;
+    padding: 25px;
+    justify-items: flex-end;
+}
+#numb{
+    margin: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    line-height: 1.8;
+}
+#name{
+    margin: 25px;
+    color: #ffffff;
+}
+#valid{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    margin-top: -70px;
+    margin-left: 317px;
+
+}
+
+/* backside of card */
+#backsidecard{
+    width: 450px;
+    height: 250px;
+    background-color: #ffffff24;
+    /* opacity: 50%; */
+    border-radius: 50px;
+    position: relative;
+    top: -230px;
+    left: 227px;
+
+}
+#servicemsj{
+    width: 350px;
+    height: 28px;
+    padding: 17px 17px 0px 17px;
+    margin: 25px 25px 0px 25px;
+    font-size: 10px;
+    font-weight: 300;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+#blackbar{
+    width: 450px;
+    height: 30px;
+    background-color: black;
+
+}
+#bar1{
+    width: 350px;
+    height: 30px;
+    margin: 20px;
+ background-color: azure;
+}
+.no{
+    background-color: #ffffff;
+    color: black;
+    padding-left: 354px;
+}
+#details{
+    width: 400px;
+    height: 50px;
+    margin: 20px;
+    color: #ffffff;
+    align-content: normal;
+    font-size: 12px;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+}
